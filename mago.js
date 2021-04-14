@@ -6,7 +6,7 @@ function magoDaEducacao() {
     setTimeout(function() {
         escolha1 = alert("Clique em ok para avançar.");
         magoFaseincial()
-    }, 300)
+    }, 500)
 }
 // Começo do jogo.
 function magoFaseincial() {
@@ -21,10 +21,10 @@ function magoFaseincial() {
         } else if (escolha1 == 2) {
             setTimeout(function() {
                 magoFase2()
-            }, 300)
+            }, 500)
         }
 
-    }, 300)
+    }, 500)
 }
 ///
 ///
@@ -40,11 +40,11 @@ function magoFase0b() {
         if (escolha1 == 1) {
             setTimeout(function() {
                 magogameover1()
-            }, 300)
+            }, 500)
         } else if (escolha1 == 2) {
             setTimeout(function() {
                 magofase1b()
-            }, 300)
+            }, 500)
         }
 
     }, 300)
@@ -57,10 +57,10 @@ function magofase1b() {
         setTimeout(function() {
             escolha1 = alert("Avançar");
             magofase1c()
-        }, 300)
+        }, 500)
 
 
-    }, 300)
+    }, 500)
 }
 
 function magofase1c() {
@@ -70,10 +70,10 @@ function magofase1c() {
         setTimeout(function() {
             escolha1 = alert("Você precisa derrotar os Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para derrotá-los.");
             magofase1d()
-        }, 300)
+        }, 500)
 
 
-    }, 300)
+    }, 500)
 }
 
 function magofase1d() {
@@ -82,10 +82,10 @@ function magofase1d() {
     setTimeout(function() {
         setTimeout(function() {
             combateeducar()
-        }, 300)
+        }, 500)
 
 
-    }, 300)
+    }, 500)
 }
 
 function combateeducar() {
@@ -100,8 +100,8 @@ function combateeducar() {
             }
             alert("Você derrotou os Reptlianos com sucesso.");
             magofase1vitoria()
-        }, 300)
-    }, 300)
+        }, 500)
+    }, 500)
 }
 
 function magofase1vitoria() {
@@ -111,10 +111,10 @@ function magofase1vitoria() {
         setTimeout(function() {
             escolha1 = alert("Parabéns, você conseguiu salvar o mundo!!");
             location.reload();
-        }, 300)
+        }, 500)
 
 
-    }, 300)
+    }, 500)
 }
 // Final vitoria / fase 1
 
@@ -124,7 +124,7 @@ function magogameover1() {
     setTimeout(function() {
         escolha1 = alert("Você morreu, aperte ok para tentar novamente.");
         location.reload();
-    }, 300)
+    }, 500)
 }
 // Final gamer over. / fase 1
 ///
@@ -141,14 +141,14 @@ function magoFase2() {
         if (escolha1 == 1) {
             setTimeout(function() {
                 magofase2b()
-            }, 300)
+            }, 500)
         } else if (escolha1 == 2) {
             setTimeout(function() {
                 magofase2a()
-            }, 300)
+            }, 500)
         }
 
-    }, 300)
+    }, 500)
 }
 // Caminho vitoria / fase 2
 function magofase2b() {
@@ -158,10 +158,10 @@ function magofase2b() {
         setTimeout(function() {
             escolha1 = alert("Avançar");
             magofase2c()
-        }, 300)
+        }, 500)
 
 
-    }, 300)
+    }, 500)
 }
 
 function magofase2c() {
@@ -171,10 +171,10 @@ function magofase2c() {
         setTimeout(function() {
             escolha1 = alert("Você precisa derrotar os Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para derrotá-los.");
             magofase2d()
-        }, 300)
+        }, 500)
 
 
-    }, 300)
+    }, 500)
 }
 
 function magofase2d() {
@@ -183,10 +183,10 @@ function magofase2d() {
     setTimeout(function() {
         setTimeout(function() {
             combate()
-        }, 300)
+        }, 500)
 
 
-    }, 300)
+    }, 500)
 }
 
 function combate() {
@@ -201,8 +201,8 @@ function combate() {
             }
             alert("Você derrotou os Reptlianos com sucesso.");
             magofase2vitoria()
-        }, 300)
-    }, 300)
+        }, 500)
+    }, 500)
 }
 
 function magofase2vitoria() {
@@ -212,8 +212,8 @@ function magofase2vitoria() {
         setTimeout(function() {
             alert("Você salvou o mundo.");
             location.reload();
-        }, 300)
-    }, 300)
+        }, 500)
+    }, 500)
 }
 // Final vitoria / fase 2
 
@@ -224,10 +224,10 @@ function magofase2a() {
     setTimeout(function() {
         setTimeout(function() {
             combate2a()
-        }, 300)
+        }, 500)
 
 
-    }, 300)
+    }, 500)
 }
 
 function combate2a() {
@@ -241,8 +241,8 @@ function combate2a() {
                 alert(luta);
             }
             magogameover2a()
-        }, 300)
-    }, 300)
+        }, 500)
+    }, 500)
 }
 
 function magogameover2a() {
@@ -251,6 +251,6 @@ function magogameover2a() {
     setTimeout(function() {
         escolha1 = alert("Você morreu, aperte ok para tentar novamente.");
         location.reload();
-    }, 300)
+    }, 500)
 }
 // Final gamer over. / fase 2
