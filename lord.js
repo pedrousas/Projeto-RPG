@@ -172,10 +172,10 @@ function lordfase2c() {
         setTimeout(function() {
             escolha1 = alert("Você precisa educar o Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para educar eles.");
             lordfase2d()
-        }, 300)
+        }, 2000)
 
 
-    }, 300)
+    }, 2000)
 }
 
 function lordfase2d() {
@@ -184,10 +184,10 @@ function lordfase2d() {
     setTimeout(function() {
         setTimeout(function() {
             lordCombate2()
-        }, 300)
+        }, 2000)
 
 
-    }, 300)
+    }, 2000)
 }
 
 function lordCombate2() {
@@ -202,8 +202,8 @@ function lordCombate2() {
             }
             alert("Você conseguiu vencer!");
             lordfase2vitoria()
-        }, 300)
-    }, 300)
+        }, 2000)
+    }, 2000)
 }
 
 function lordfase2vitoria() {
@@ -213,8 +213,8 @@ function lordfase2vitoria() {
         setTimeout(function() {
             alert("Você salvou o mundo.");
             location.reload();
-        }, 300)
-    }, 300)
+        }, 2000)
+    }, 2000)
 }
 
 // Final vitoria / fase 2
@@ -226,10 +226,10 @@ function lordfase2a() {
     setTimeout(function() {
         setTimeout(function() {
             lordCombate2a()
-        }, 10)
+        }, 100)
 
 
-    }, 10)
+    }, 100)
 }
 
 function lordCombate2a() {
@@ -243,8 +243,8 @@ function lordCombate2a() {
                 alert(luta);
             }
             lordgameover2a()
-        }, 300)
-    }, 300)
+        }, 2000)
+    }, 2000)
 }
 
 function lordgameover2a() {
@@ -253,6 +253,6 @@ function lordgameover2a() {
     setTimeout(function() {
         escolha1 = alert("Você morreu, aperte ok para tentar novamente.");
         location.reload();
-    }, 300)
+    }, 2000)
 }
 // Final gamer over. / fase 2
