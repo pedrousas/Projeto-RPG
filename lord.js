@@ -6,7 +6,7 @@ function lordNey() {
     setTimeout(function() {
         escolha1 = alert("Clique em ok para avançar.");
         lordFaseincial()
-    }, 1500)
+    }, 3000)
 }
 // Começo do jogo.
 function lordFaseincial() {
@@ -17,14 +17,14 @@ function lordFaseincial() {
         if (escolha1 == 1) {
             setTimeout(function() {
                 lordFase0b()
-            }, 1500)
+            }, 3000)
         } else if (escolha1 == 2) {
             setTimeout(function() {
                 lordFase2()
-            }, 1500)
+            }, 3000)
         }
 
-    }, 1500)
+    }, 3000)
 }
 ///
 ///
@@ -40,14 +40,14 @@ function lordFase0b() {
         if (escolha1 == 2) {
             setTimeout(function() {
                 lordgameover1()
-            }, 1500)
+            }, 3000)
         } else if (escolha1 == 1) {
             setTimeout(function() {
                 lordfase1b()
-            }, 1500)
+            }, 3000)
         }
 
-    }, 1500)
+    }, 3000)
 }
 // Caminho vitoria / fase 1
 function lordfase1b() {
@@ -57,10 +57,10 @@ function lordfase1b() {
         setTimeout(function() {
             escolha1 = alert("Avançar");
             fadafase1c()
-        }, 1500)
+        }, 3000)
 
 
-    }, 1500)
+    }, 3000)
 }
 
 function lordfase1c() {
@@ -70,10 +70,10 @@ function lordfase1c() {
         setTimeout(function() {
             escolha1 = alert("Você precisa derrotar os Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para derrotá-los.");
             magofase1d()
-        }, 1500)
+        }, 3000)
 
 
-    }, 1500)
+    }, 3000)
 }
 
 function lordfase1d() {
@@ -82,10 +82,10 @@ function lordfase1d() {
     setTimeout(function() {
         setTimeout(function() {
             combatemagia()
-        }, 1500)
+        }, 3000)
 
 
-    }, 1500)
+    }, 3000)
 }
 
 function combatemagia() {
@@ -100,8 +100,8 @@ function combatemagia() {
             }
             alert("Você derrotou os Reptlianos com sucesso.");
             fadafase1vitoria()
-        }, 1500)
-    }, 1500)
+        }, 3000)
+    }, 3000)
 }
 
 function lordfase1vitoria() {
@@ -111,10 +111,10 @@ function lordfase1vitoria() {
         setTimeout(function() {
             escolha1 = alert("Parabéns, você conseguiu salvar o mundo!!");
             location.reload();
-        }, 1500)
+        }, 3000)
 
 
-    }, 1500)
+    }, 3000)
 }
 // Final vitoria / fase 1
 
@@ -125,7 +125,7 @@ function lordgameover1() {
     setTimeout(function() {
         escolha1 = alert("Você morreu, aperte ok para tentar novamente.");
         location.reload();
-    }, 1500)
+    }, 3000)
 }
 // Final gamer over. / fase 1
 ///
@@ -142,14 +142,14 @@ function lordFase2() {
         if (escolha1 == 1) {
             setTimeout(function() {
                 lordfase2b()
-            }, 1500)
+            }, 3000)
         } else if (escolha1 == 2) {
             setTimeout(function() {
                 lordfase2a()
-            }, 1500)
+            }, 3000)
         }
 
-    }, 1500)
+    }, 3000)
 }
 // Caminho vitoria / fase 2
 function lordfase2b() {
@@ -159,10 +159,10 @@ function lordfase2b() {
         setTimeout(function() {
             escolha1 = alert("Avançar");
             lordfase2c()
-        }, 1500)
+        }, 3000)
 
 
-    }, 1500)
+    }, 3000)
 }
 
 function lordfase2c() {
@@ -172,10 +172,10 @@ function lordfase2c() {
         setTimeout(function() {
             escolha1 = alert("Você precisa educar o Reptilianos para poder desativar a bomba, Clique em Ok 20 vezes para educar eles.");
             lordfase2d()
-        }, 1500)
+        }, 3000)
 
 
-    }, 1500)
+    }, 3000)
 }
 
 function lordfase2d() {
@@ -184,10 +184,10 @@ function lordfase2d() {
     setTimeout(function() {
         setTimeout(function() {
             lordCombate2()
-        }, 1500)
+        }, 3000)
 
 
-    }, 1500)
+    }, 3000)
 }
 
 function lordCombate2() {
@@ -202,8 +202,8 @@ function lordCombate2() {
             }
             alert("Você conseguiu vencer!");
             lordfase2vitoria()
-        }, 1500)
-    }, 1500)
+        }, 3000)
+    }, 3000)
 }
 
 function lordfase2vitoria() {
@@ -213,8 +213,8 @@ function lordfase2vitoria() {
         setTimeout(function() {
             alert("Você salvou o mundo.");
             location.reload();
-        }, 1500)
-    }, 1500)
+        }, 3000)
+    }, 3000)
 }
 
 // Final vitoria / fase 2
@@ -226,10 +226,10 @@ function lordfase2a() {
     setTimeout(function() {
         setTimeout(function() {
             lordCombate2a()
-        }, 1500)
+        }, 3000)
 
 
-    }, 1500)
+    }, 3000)
 }
 
 function lordCombate2a() {
@@ -243,8 +243,8 @@ function lordCombate2a() {
                 alert(luta);
             }
             lordgameover2a()
-        }, 1500)
-    }, 1500)
+        }, 3000)
+    }, 3000)
 }
 
 function lordgameover2a() {
@@ -253,6 +253,6 @@ function lordgameover2a() {
     setTimeout(function() {
         escolha1 = alert("Você morreu, aperte ok para tentar novamente.");
         location.reload();
-    }, 1500)
+    }, 3000)
 }
 // Final gamer over. / fase 2
