@@ -253,6 +253,6 @@ function lordgameover2a() {
     setTimeout(function() {
         escolha1 = alert("Você morreu, aperte ok para tentar novamente.");
         location.reload();
-    }, 3000)
+    }, 2500)
 }
 // Final gamer over. / fase 2

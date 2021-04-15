@@ -251,6 +251,6 @@ function magogameover2a() {
     setTimeout(function() {
         escolha1 = alert("Você morreu, aperte ok para tentar novamente.");
         location.reload();
-    }, 3000)
+    }, 2000)
 }
 // Final gamer over. / fase 2
